@@ -1,0 +1,7 @@
+name: CustomEnderpearl
+main: VaxPex\Loader
+src-namespace-prefix: VaxPex
+version: 1.0.0
+api: [4.0.0]
+author: VaxPex
+description: Add custom enderpearl teleportion
