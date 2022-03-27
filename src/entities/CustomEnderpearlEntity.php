@@ -34,6 +34,7 @@ class CustomEnderpearlEntity extends EnderPearl {
 			}elseif($owner->getHorizontalFacing() == Facing::NORTH){
 				$x = -0.8;
 				$z = -sqrt(abs(($target->getX() * 2.8) * abs($target->getZ() * 2.8) * atan(2.8) * 4.8)) / 2;
+				//TODO: Y
 			}elseif($owner->getHorizontalFacing() == Facing::WEST){
 				$x = -3.8;
 				//TODO: Y
